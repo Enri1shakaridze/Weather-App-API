@@ -1,0 +1,17 @@
+{
+    "coord": { "lon": 44.79, "lat": 41.71 },
+    "weather": [
+    {
+        "main": "Clouds",
+        "description": "scattered clouds"
+    }
+    ],
+        "main": {
+        "temp": 15,
+        "humidity": 62
+    },
+        "wind": {
+        "speed": 4.2
+    },
+        "name": "Tbilisi"
+}

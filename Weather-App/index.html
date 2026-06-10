@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://purepng.com/public/uploads/large/purepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <img src="./images/location.png" width="30px" alt="">
+            <input id="city" type="text" placeholder="Enter your location">
+            <button onclick="weather()" id="submit" type="submit"><img src="./images/Search_Icon.svg.png" width="20px" alt=""></button>
+        </div>
+
+        <div class="img-not-found">
+            <img id="imgn" src="" width="350px" alt="">
+            <p id="Oops"></p>
+        </div>
+
+        <div class="celsius">
+            <h1 id="celsiush1"></h1>
+            <p id="celsiusp"></p>
+        </div>
+
+        <div class="last-element">
+            <div class="humidty">
+                <div class="humidty1">
+                    <img id="hm1" src="" width="50px" alt="">
+                </div>
+                <div class="humidty2">
+                    <h2 id="humidty2-h2"></h2>
+                    <p id="humidty2-p"></p>
+                </div>
+            </div>
+            <div class="speed">
+                <div class="speed1">
+                    <img id="sp1" src="" width="50px" alt="">
+                </div>
+                <div class="speed2">
+                    <h2 id="speed2-h2"></h2>
+                    <p id="speed2-p"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
