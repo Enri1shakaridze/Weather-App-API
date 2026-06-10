@@ -22,4 +22,3 @@ A simple and modern weather application UI built with HTML and CSS.
 
 The application displays weather information for a selected city, including temperature, humidity, and wind speed in an attractive user interface.
 
-## Project Structure
